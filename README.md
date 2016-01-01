@@ -59,6 +59,10 @@ Use curl or probably just your browser to view the output:
 curl http://localhost:9393/api/v1/posts
 ```
 
+## Grape Entity
+
+With **grape-entity**, you can expose only the fields you want and format them as needed.
+
 ## Testing
 
 We can use RSpec and Rack::Test to test the API requests.
