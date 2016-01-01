@@ -130,5 +130,5 @@ rspec .
 ### Have any questions/ suggestions?
 
 #### Katherine Pe
-* <a href='http://c.kat.pe' target='_blank'>c.kat.pe</a>
-* <a href='http://google.com/+katherinepe' target='_blank'>Kat on Google+</a>
+* <a href='https://c.kat.pe' target='_blank'>c.kat.pe</a>
+* <a href='https://google.com/+katherinepe' target='_blank'>Kat on Google+</a>
