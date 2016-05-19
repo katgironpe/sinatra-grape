@@ -30,9 +30,20 @@ $ rm -r myapp/.git && rm myapp/README.md
 
 Install MongoDB if you haven't yet.
 
+On Mac OSX, you can use Homebrew to install MongoDB as
+
+```bash
+$ brew install mongodb
 ```
-brew install mongodb
+
+On Linux distros, use your package manager to install MongoDB. For instance, if you are on Ubuntu or Ubuntu derivative, you might use
+
+```bash
+$ apt-get install mongodb
 ```
+You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redhat, you would most likely use `yum` package manager. Similarly, on Arch, MongoDB can be installed with `pacman`.
+
+It is to be noted that these installer commands would install a bit older version of MongoDB. If you wish to install latest MongoDB on your machine, follow the guide presented [here](https://www.mongodb.com/download-center#community)
 
 Change the settings on `config/database.yml`
 
