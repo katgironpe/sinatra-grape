@@ -22,7 +22,7 @@
 ## Getting Started
 
 ``` bash
-$ git clone --depth 1 git://github.com/katgironpe/sinatra-grape.git myapp
+$ git clone --depth 1 git://github.com/katgironpe/sinatra-mongodb-grape.git myapp
 $ rm -r myapp/.git && rm myapp/README.md
 ```
 
