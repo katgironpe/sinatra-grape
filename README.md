@@ -127,18 +127,14 @@ bundle exec  rake test
 
 > — Michael Feathers
 
-### Documentation
+### Looking for a similar template for PostgreSQL?
 
+I worked on a more up-to-date grape, Sinatra and PostgreSQL example based on this repository:
+
+#### <a href="https://github.com/katgironpe/sinatra-pg-grape">Sinatra PostgreSQL Grape template</a>
 
 ### Relevant Links
   * http://recipes.sinatrarb.com/p/databases/mongo
-
-### TO DO
-
-* Work on the generators to make the process less tedious.
-* Examples for POST and PATCH
-* Documentation
-
 
 ### Have any questions/ suggestions?
 
