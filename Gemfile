@@ -4,7 +4,7 @@ gem 'bson_ext'
 gem 'grape'
 gem 'grape-entity'
 gem 'json', '~> 2.0'
-gem 'mongo' # You may change this to Mongoid as needed
+gem 'mongo', '~> 2.0' # You may change this to Mongoid as needed
 gem 'rake'
 gem 'sinatra'
 

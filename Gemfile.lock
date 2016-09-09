@@ -10,9 +10,8 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    bson (1.12.5)
-    bson_ext (1.12.5)
-      bson (~> 1.12.5)
+    bson (4.1.1)
+    bson_ext (1.5.1)
     builder (3.2.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -40,8 +39,8 @@ GEM
     ice_nine (0.11.2)
     json (2.0.2)
     minitest (5.9.0)
-    mongo (1.12.5)
-      bson (= 1.12.5)
+    mongo (2.3.0)
+      bson (~> 4.1)
     multi_json (1.12.1)
     multi_xml (0.5.5)
     mustermann19 (0.4.4)
@@ -91,7 +90,7 @@ DEPENDENCIES
   grape
   grape-entity
   json (~> 2.0)
-  mongo
+  mongo (~> 2.0)
   rack-test
   rake
   rspec
