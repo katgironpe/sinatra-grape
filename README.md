@@ -1,4 +1,4 @@
-# Sinatra Grape Template
+# Sinatra MongoDB Grape Template [![Dependency Status](https://gemnasium.com/badges/github.com/katgironpe/sinatra-mongodb-grape.svg)](https://gemnasium.com/github.com/katgironpe/sinatra-mongodb-grape)
 
 ## What is this good for?
 
