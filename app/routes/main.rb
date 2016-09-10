@@ -6,8 +6,7 @@ class Main < Sinatra::Base
   end
 
   configure do
-    $conn = MongoClient.new(settings.host, settings.port)
-    $db = $conn.db(settings.database)
+    $db = Mongo::Client.new("mongodb://#{settings.mongodb_host}:#{settings.port}/#{settings.database}")
     set :db, $db
   end
 

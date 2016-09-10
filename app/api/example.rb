@@ -7,7 +7,10 @@ class Example < Grape::API
     { hello: 'world' }
   end
 
-  get :posts do
-    $db['posts'].find({ published: true }).to_a
+  resources :posts do
+    desc 'Returns published posts.'
+    get :published do
+      $db['posts'].find({ published: true }).to_a
+    end
   end
 end

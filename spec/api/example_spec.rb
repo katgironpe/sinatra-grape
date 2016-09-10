@@ -13,9 +13,9 @@ describe Example do
     end
   end
 
-  describe 'GET /api/v1/posts' do
+  describe 'GET /api/v1/posts/published' do
     it 'gets published posts' do
-      get '/api/v1/posts'
+      get '/api/v1/posts/published'
       expect(last_response.status).to eq(200)
     end
   end

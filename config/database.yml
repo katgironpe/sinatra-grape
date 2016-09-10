@@ -1,6 +1,7 @@
 defaults: &defaults
   username: kat
   password:
+  mongodb_host: 127.0.0.1
   port: 27017
   session_secret: 5b49d8cb1871123b98d23b08c40c92d0
 
