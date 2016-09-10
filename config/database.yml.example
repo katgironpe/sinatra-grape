@@ -1,5 +1,5 @@
 defaults: &defaults
-  username: kat
+  username: dev
   password:
   mongodb_host: 127.0.0.1
   port: 27017

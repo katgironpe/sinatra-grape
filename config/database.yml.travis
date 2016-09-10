@@ -1,0 +1,24 @@
+defaults: &defaults
+  username: travis
+  password:
+  mongodb_host: 127.0.0.1
+  port: 27017
+  session_secret: 5b49d8cb1871123b98d23b08c40c92d0
+
+development:
+  database: smg_development
+  host: localhost
+  <<: *defaults
+
+test:
+  database: smg_test
+  host: localhost
+  <<: *defaults
+
+production:
+  uri:
+  database: smg_production
+  host: localhost
+  username: production_username
+  password:
+  <<: *defaults
