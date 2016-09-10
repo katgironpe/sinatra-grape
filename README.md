@@ -45,6 +45,13 @@ You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redh
 
 It is to be noted that these installer commands would install a bit older version of MongoDB. If you wish to install latest MongoDB on your machine, follow the guide presented [here](https://www.mongodb.com/download-center#community)
 
+
+## Create config/database.yml
+
+```bash
+cp config/database.yml.example config/database.yml
+```
+
 Change the settings on `config/database.yml`
 
 
@@ -115,10 +122,10 @@ describe Example do
 end
 ```
 
-Use the commands:
+Use the command to run the default task which is `rake spec`:
 
 ```bash
-bundle exec  rake test
+bundle exec rake
 ```
 
 ### The Golden Rule of API Design

@@ -11,7 +11,6 @@ GEM
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
     bson (4.1.1)
-    bson_ext (1.5.1)
     builder (3.2.2)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
@@ -86,8 +85,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bson_ext
-  grape
+  grape (~> 0.17.0)
   grape-entity
   json (~> 2.0)
   mongo (~> 2.0)
