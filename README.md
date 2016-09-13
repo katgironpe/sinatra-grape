@@ -41,6 +41,7 @@ On Linux distros, use your package manager to install MongoDB. For instance, if 
 ```bash
 $ apt-get install mongodb
 ```
+
 You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redhat, you would most likely use `yum` package manager. Similarly, on Arch, MongoDB can be installed with `pacman`.
 
 It is to be noted that these installer commands would install a bit older version of MongoDB. If you wish to install latest MongoDB on your machine, follow the guide presented [here](https://www.mongodb.com/download-center#community)
@@ -106,8 +107,6 @@ We should make sure it returns correct status code and output:
 require 'spec_helper'
 
 describe Example do
-  include Rack::Test::Methods
-
   def app
     Example
   end
