@@ -1,12 +1,17 @@
 ENV['RACK_ENV'] ||= 'test'
 
-require 'rspec'
-require 'rack/test'
-require './main'
+%w(
+  ffaker
+  rack/test
+  rspec
+  ./main
+).each do |dep|
+  require dep
+end
+
 
 Dir[('./spec/support/**/*.rb')].each { |f| require f }
 
 RSpec.configure do |c|
-  c.mock_with :rspec
   c.include Rack::Test::Methods
 end

@@ -19,4 +19,20 @@ describe Example do
       expect(last_response.status).to eq(200)
     end
   end
+
+  describe 'POST /api/v1/posts' do
+    context 'with missing required parameters' do
+      it 'creates a post' do
+        post '/api/v1/posts', title: FFaker::Movie.title
+        expect(last_response.status).to eq(400)
+      end
+    end
+
+    context 'given required parameters' do
+      it 'creates a post' do
+        post '/api/v1/posts', title: FFaker::Movie.title, body: FFaker::LoremFR.paragraph, published: true
+        expect(last_response.status).to eq(201)
+      end
+    end
+  end
 end

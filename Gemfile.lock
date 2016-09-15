@@ -20,6 +20,7 @@ GEM
     diff-lcs (1.2.5)
     enumerable-lazy (0.0.1)
     equalizer (0.0.11)
+    ffaker (2.2.0)
     grape (0.17.0)
       activesupport
       builder
@@ -85,6 +86,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffaker
   grape (~> 0.17.0)
   grape-entity
   json (~> 2.0)
