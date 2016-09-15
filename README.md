@@ -18,6 +18,8 @@
 * Grape
 * Mongo
 * Sinatra
+* RSpec
+* Ffaker
 
 ## Getting Started
 
@@ -141,6 +143,7 @@ I worked on a more up-to-date grape, Sinatra and PostgreSQL example based on thi
 
 ### Relevant Links
   * http://recipes.sinatrarb.com/p/databases/mongo
+  * https://docs.mongodb.com/ruby-driver/master/quick-start
 
 ### Have any questions/ suggestions?
 
