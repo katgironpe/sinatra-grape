@@ -4,7 +4,7 @@ gem 'grape', '~> 0.18.0'
 gem 'grape-entity'
 gem 'json', '~> 2.0'
 gem 'mongo', '~> 2.0' # You may change this to Mongoid as needed
-gem 'rake'
+gem 'rake', '~> 11.0'
 gem 'sinatra'
 
 group :development do
